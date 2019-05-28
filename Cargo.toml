@@ -1,9 +1,16 @@
 [package]
 name = "today"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Ishmaeel <Ishmaeel@users.noreply.github.com>"]
 edition = "2018"
 build = "src/build.rs"
+
+[package.metadata.winres]
+OriginalFilename = "today.exe"
+LegalCopyright = "Copyright 2019"
+FileDescription = "Copies files for today."
+ProductName = "Today!"
+ProductVersion = "0.2"
 
 [dependencies]
 chrono = "0.4.6"

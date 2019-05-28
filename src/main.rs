@@ -24,7 +24,7 @@ fn copy_file(source: &std::path::PathBuf) {
     target.set_extension(source.extension().unwrap_or_default());
 
     if target.is_file() || target.is_dir() {
-        println!("No.");
+        println!("Nope.");
     } else {
         match std::fs::copy(&source, &target) {
             Ok(_) => println!("Done."),
