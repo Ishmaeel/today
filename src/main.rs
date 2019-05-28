@@ -1,3 +1,5 @@
+#![windows_subsystem = "windows"]
+
 fn main() {
     for i in std::env::args_os().skip(1) {
         process_arg(i);
