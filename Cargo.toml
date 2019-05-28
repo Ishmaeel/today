@@ -5,3 +5,4 @@ authors = ["Ishmaeel <Ishmaeel@users.noreply.github.com>"]
 edition = "2018"
 
 [dependencies]
+chrono = "0.4.6"
